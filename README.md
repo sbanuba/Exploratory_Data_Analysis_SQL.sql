@@ -19,3 +19,4 @@ Except for the regions table, all are connected to the sales (child) table throu
 
 Showing an ERD to end-users is helpful for them to visualize how tables are related to one another. It also reflects the cardinality between the parent tables and child tables by connecting foreign keys and primary keys respectively.
 
+![ER Diagram](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*vzHgfRZgidN1_lQLlCFZmg.jpeg)
