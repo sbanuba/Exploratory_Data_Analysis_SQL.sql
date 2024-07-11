@@ -8,6 +8,10 @@
 - Print a table showing each day of the week and the respective order quantities.
 - Calculate the total order quantities for each month
 - Finally, management would like to know the annual trend of sales to assess the growth over the entire period.
+
+## Code:
+Click on the link below to review the documented codes. 
+  SQL Queries: https://github.com/sbanuba/Exploratory_Data_Analysis_SQL.sql/blob/main/SQL_Code.sql
   
 ---
 ## Data Analysis Project Cycle 
