@@ -1,4 +1,5 @@
 -- Exploratory Data Analysis Using SQL 
+-- https://github.com/sbanuba/Exploratory_Data_Analysis_SQL.sql/blob/main/README.md
 
 -- Business Cases:
 
