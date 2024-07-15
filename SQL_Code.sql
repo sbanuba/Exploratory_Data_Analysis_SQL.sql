@@ -10,7 +10,7 @@ SELECT
     , region_state              
     , SUM(order_quantity) AS total_sales  
 FROM sales s                      
-INNER JOIN products p ON s.product_id = p.id
+INNER JOIN products p ON s.product_id = p.id 
 INNER JOIN stores st ON s.store_id = st.id
 INNER JOIN regions r  ON r.state_code = st.state_code
 GROUP BY product_name, region_state  
@@ -83,7 +83,7 @@ LEFT JOIN stores st1 ON x.FO_store_id = st1.id;
 -- Print a table showing each day of the week and the respective order quantities.
 
 SELECT
-    DAYOFWEEK(order_date) AS day_of_week
+    DAYOFWEEK(order_date) AS day_of_week -- Extracting week of the day
     , DAYNAME(order_date) AS Day_name
     , SUM(order_quantity) AS order_quantity
 FROM sales s
